@@ -1,0 +1,36 @@
+{
+  "name": "@mojskin/vue-shortcut-manager",
+  "description": "A powerful keyboard shortcut manager for Vue 3 applications with support for multi-key bindings, conditional execution, element targeting, navigation, and auto-generated help dialogs. Perfect for complex forms, dashboards, and productivity tools.",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/vue-shortcut-manager.cjs.js",
+  "module": "./dist/vue-shortcut-manager.es.js",
+  "types": "./dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-shortcut-manager.es.js",
+      "require": "./dist/vue-shortcut-manager.cjs.js",
+      "types": "./dist/types/index.d.ts"
+    }
+  },
+  "files": ["dist", "README.md"],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && tsc --emitDeclarationOnly",
+    "test": "vitest",
+    "prepublishOnly": "npm run test && npm run build"
+  },
+  "peerDependencies": {
+    "vue": "^3.3.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mojskin/vue-shortcut-manager.git"
+  },
+  "keywords": ["vue", "shortcut", "keyboard", "hotkey"],
+  "author": "MojSkin",
+  "license": "MIT"
+}
