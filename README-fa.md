@@ -1,4 +1,4 @@
-[🇬🇧 English](README-en.md) | 🇮🇷 فارسی
+[🇬🇧 English](README.md) | 🇮🇷 فارسی
 
 # vue-shortcut-manager نسخه ۱.۰.۰
 
