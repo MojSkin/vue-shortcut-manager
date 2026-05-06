@@ -138,6 +138,13 @@ manager.registerGlobal({
 * `registerLocal(component, shortcuts)` – معمولاً توسط `register` از کامپوزابل صدا زده می‌شود.
 * `getHelpHTML(component?)` – رشته اچ‌تی‌امال راهنما را تولید می‌کند.
 
+## 🙏 حمایت مالی
+
+از حمایت شما بی‌نهایت سپاسگزارم. این کمک‌ها تضمین‌کننده ادامه توسعه پروژه خواهد بود.
+
+[![کمک از طریق Daramet](https://img.shields.io/badge/کمک_مالی-Daramet-ff69b4?style=for-the-badge&logo=heart&logoColor=white)](https://daramet.com/mojskin)
+
+
 ## 📄 مجوز
 
 MIT · ساخته شده توسط [mojskin](https://github.com/mojskin)

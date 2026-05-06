@@ -140,6 +140,13 @@ manager.registerGlobal({
 * `registerLocal(component, shortcuts)` – normally called via `register` from composable.
 * `getHelpHTML(component?)` – generates help HTML string.
 
+## 🙏 Support & Donations
+
+Your support is greatly appreciated and helps ensure the continued development of this project.
+
+[![Donate with Daramet](https://img.shields.io/badge/Donate-Daramet-ff69b4?style=for-the-badge&logo=heart&logoColor=white)](https://daramet.com/mojskin)
+
+
 ## 📄 License
 
 MIT · Created by [mojskin](https://github.com/mojskin)
