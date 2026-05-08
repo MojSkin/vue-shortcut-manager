@@ -13,7 +13,10 @@
       "types": "./dist/types/index.d.ts"
     }
   },
-  "files": ["dist", "README.md"],
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build && tsc --emitDeclarationOnly",
@@ -30,7 +33,12 @@
     "type": "git",
     "url": "git+https://github.com/mojskin/vue-shortcut-manager.git"
   },
-  "keywords": ["vue", "shortcut", "keyboard", "hotkey"],
+  "keywords": [
+    "vue",
+    "shortcut",
+    "keyboard",
+    "hotkey"
+  ],
   "author": "MojSkin",
   "license": "MIT"
 }
